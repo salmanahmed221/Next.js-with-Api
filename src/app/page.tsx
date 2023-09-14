@@ -1,5 +1,8 @@
 // Step 02 fetching data server static
 
+import { assert } from "console";
+
+
 // const url = "https://api.quotable.io/random?tags=technology"
 
 // async function getData() {
@@ -57,11 +60,18 @@
 
 // const fetcher = (url: any) => fetch(url).then((res) => res.json());
 
-// export default function page() {
-//   const { data, isLoading, error } = useSwr(url, fetcher)
-//   if (error) return <div>Failed to fetch</div>
-//   if (isLoading) return <div>loading....</div>
-//   return <div>
-//     {data.content}
-//   </div>;
+// function page() {
+//     const { data, isLoading, error } = useSwr(url, fetcher)
+//     if (error) return <div>Failed to fetch</div>
+//     if (isLoading) return <div>loading....</div>
+//     return <div>
+//         {data.content}
+//     </div>;
 // }
+
+// export default page;
+
+
+
+
+
